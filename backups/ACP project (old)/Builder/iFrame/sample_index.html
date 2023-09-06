@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+</head>
+<style type="text/css">
+    .main-container{
+        width: 50%; 
+        margin: auto;
+        border: 1px solid green;
+        padding-top: 40%;
+        position: relative;
+    }
+
+.main-container iframe{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+
+}
+</style>
+<body>
+    
+<div class="main">
+    <div class="main-container">
+        <iframe
+        src="page_1.html"
+        frameborder="0"
+        allow="acceloremeter; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        
+    </div>
+</div>
+
+</body>
+</html>

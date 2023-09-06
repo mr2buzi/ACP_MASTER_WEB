@@ -1,0 +1,7 @@
+
+
+.menu {
+    grid-column: main-start / main-end;
+    flex-direction: left;
+}
+
