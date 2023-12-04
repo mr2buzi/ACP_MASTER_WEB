@@ -1,0 +1,222 @@
+.button-page{
+  border-radius: 25px;
+  top:5px;
+  width: 100%;
+  border: 3px solid #A8C414;
+  padding: 10px;
+
+}
+
+.bg-button {
+  border-radius: 25px;
+  color: rgb(17, 241, 58);
+}
+
+
+
+.common_box {
+  color: rgb(30, 23, 23);
+  height: 550px;
+  box-shadow: 0px 0px 9px -1px #b2e5b3;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  margin: 35px 0;
+}
+
+.common_box-2 {
+  margin:auto;
+  color: rgb(30, 23, 23);
+  height: auto;
+  font-size: 2em;
+  box-shadow: 0px 0px 9px -1px #b2e5b3;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  margin: 35px 0;
+}
+
+.format-box{
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  color: #edf5ed;
+  background-color:#DCDCDC;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.main-header{
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  color: #f8f8f7;
+  background-color:#043c11;
+  border:solid;
+  border-color: #2e3608;
+}
+
+.format-box-2{
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  color: #f8f8f7;
+  background-color: #043c11;
+  font-size: 30px;
+  border:solid;
+  border-color: #2e3608;
+  margin-top: 5px;
+}
+
+h2 {
+  color: green;
+  text-align: left;
+  padding: 5px;
+}
+
+h3 {
+  color: rgb(182, 110, 18);
+  text-align: left;
+}
+
+
+
+.main-label{
+  color: #0b0e0b;
+}
+
+.element {
+  width: auto;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-size: 34 ;
+  border-radius: 10px;
+  box-shadow: -5px 5px 0px 0px rgba(65,117,5,1),
+-10px 10px 0px 0px rgba(65,117,5,0.6),
+-15px 15px 0px 0px rgba(65,117,5,0.4),
+-20px 20px 0px 0px rgba(65,117,5,0.2),
+-25px 25px 0px 0px rgba(65,117,5,0.1);
+padding: 10px;
+margin: 20px;
+}
+
+.box-align-center{
+  text-align: justify;
+  color: green;
+  font-size: 24px ;
+  padding: 10px;
+}
+
+
+.one {
+  padding-top: 50px;
+  border-radius: 10px;
+  border: #2e3608;
+  background-color: #286226;
+  height: 250px;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  color: white;
+}
+
+.two {
+  padding-top: 50px;
+  border-radius: 10px;
+  border: #2e3608;
+  background-color: #e2ebe1;
+  height: 250px;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  color:red;
+}
+
+.auto-size-box{
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-shadow {
+  box-shadow: inset gray 0px 0px 60px -12px; 
+}
+
+img {
+  object-fit: contain;
+}
+
+.hero-image {
+  background-image: url("../public/img/board.png"); /* The image used */
+ 
+  height: 512px; /* You must set a specified height */
+  width: 512px;
+  bottom: 0px;
+ 
+}
+
+.card {
+  margin:0px auto;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-weight: bold;
+}
+
+.header {
+  text-align: left;
+  height: 80%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 50px;
+  font-size: 20px;
+  margin: auto;
+}
+
+.container {
+
+  justify-content: center;
+  padding: 10px;
+}
+
+.set-margin{
+
+  margin:0px auto;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.1em;
+  font-family: sans-serif;
+  min-width: 300px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #467e49;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+
